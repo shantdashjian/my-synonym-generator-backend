@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/shantdashjian/my-synonym-generator-backend/issues"
   },
-  "homepage": "https://github.com/shantdashjian/my-synonym-generator-backend#readme"
+  "homepage": "https://github.com/shantdashjian/my-synonym-generator-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^3.1.0",
+    "openai": "^4.28.0"
+  }
 }
